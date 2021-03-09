@@ -8,4 +8,23 @@ html {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+}
+.head .img1 {
+  width: 20.2rem;
+  height: 6.8rem;
+}
+.head .img2 {
+  width: 4.6rem;
+  height: 5.8rem;
+}
+.head .img3 {
+  width: 4.6rem;
+  height: 5.8rem;
+}
+.banner {
+  width: 100%;
+}
+.banner img {
+  width: 100%;
 }
