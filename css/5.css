@@ -172,7 +172,7 @@ body {
   color: #FF8A00;
   font-weight: 700;
 }
-.mesage .m_one:nth-last-type {
+.mesage .m_one:last-of-type {
   border-bottom: none;
 }
 .footer {

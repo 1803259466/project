@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 10px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.banner {
+  width: 100%;
+  height: 18.5rem;
+  background: url(../image/my/bg1.png) no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner .img {
+  width: 100%;
+  display: flex;
+  margin-top: 1.2rem;
+  justify-content: flex-end;
+}
+.banner .img .one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner .img .one img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.banner .img .one span {
+  color: #fff;
+  font-size: 1.2rem;
+}
+.banner .img .one:first-of-type {
+  margin-right: 2.3rem;
+}
+.banner .img .one:last-of-type {
+  margin-right: 1.6rem;
+}
+.banner .user {
+  margin-top: 1.3rem;
+  text-align: center;
+}
+.banner .user img {
+  width: 5.2rem;
+  height: 5.2rem;
+}
+.banner .anniu {
+  margin-top: 1.5rem;
+  width: 6.4rem;
+  height: 2.8rem;
+  border: 0.1rem solid #fff;
+  color: #fff;
+  text-align: center;
+  line-height: 2.8rem;
+}
+.lis {
+  width: 100%;
+  padding: 0rem 2rem;
+  box-sizing: border-box;
+}
+.lis ul {
+  width: 100%;
+}
+.lis ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4.8rem;
+  width: 100%;
+  border-bottom: 0.1rem solid #ccc;
+}
+.lis ul li img {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.lis ul li a {
+  font-size: 1.2rem;
+  color: #666666;
+  flex-grow: 5;
+  margin-left: 0.3rem;
+}
