@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  font-size: 10px;
+  width: 100%;
+  height: 100%;
+}
+.header {
+  width: 100%;
+  height: 5.3rem;
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+}
+.header .h_box {
+  display: flex;
+  align-items: center;
+  margin-top: 0.2rem;
+  font-size: 0px;
+  background-color: #fff;
+  width: 28.8rem;
+  border: 0.1rem solid #ccc;
+  height: 3.9rem;
+  line-height: 3.9rem;
+}
+.header .h_box input {
+  width: 23.7rem;
+  height: 3.9rem;
+  border: none;
+  padding-left: 1rem;
+  box-sizing: border-box;
+  outline: none;
+}
+.header .h_box ::-webkit-input-placeholder {
+  font-size: 1.3rem;
+  color: #757575;
+}
+.header .h_box span {
+  display: inline-block;
+  height: 1.3rem;
+  width: 0.1rem;
+  background-color: #840084;
+  box-shadow: 0 1 0.1rem 0 #C6FFFF;
+  margin-right: 1.4rem;
+}
+.header .h_box img {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+.list {
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  overflow: hidden;
+  border-bottom: 0.1rem solid #ccc;
+  border-top: 0.1rem solid #ccc;
+}
+.list .one {
+  width: 25%;
+  height: 4rem;
+  color: #666666;
+  font-size: 1.7rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.list .one span {
+  display: inline-block;
+  width: 0rem;
+  height: 0rem;
+  margin-left: 0.3rem;
+  border-top: 0.5rem solid #CCCCCC;
+  border-left: 0.5rem solid transparent;
+  border-right: 0.5rem solid transparent;
+}
+.message {
+  width: 100%;
+  padding: 0rem 2rem;
+  box-sizing: border-box;
+  background-color: #F5F5F5;
+}
+.message .m_one {
+  width: 100%;
+  height: 13.2rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.1rem solid #FD8A00;
+}
+.message .m_one img {
+  width: 8.1rem;
+  height: 8.1rem;
+  margin-right: 1.2rem;
+}
+.message .m_one .m_text {
+  font-size: 0px;
+}
+.message .m_one .m_text p:nth-of-type(1) {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+.message .m_one .m_text p:nth-of-type(2) {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.message .m_one .m_text p:nth-of-type(3) {
+  font-size: 1.2rem;
+  color: #B0B0B0;
+  margin-bottom: 0.5rem;
+}
+.message .m_one .m_text p:nth-of-type(3) span {
+  color: #FD8A00;
+  font-weight: 700;
+  margin-left: 0.2rem;
+}
+.message .m_one .m_text p:nth-of-type(4) {
+  font-size: 1.2rem;
+  color: #B0B0B0;
+}
+.message .m_one:last-of-type {
+  border-bottom: none;
+}
+.footer {
+  margin-top: 0rem;
+  background-color: #2F3130;
+  height: 15.5rem;
+  padding: 0rem 2rem;
+  box-sizing: border-box;
+}
+.footer .f_top {
+  height: 4rem;
+  border-bottom: 0.1rem solid #3E403F;
+  line-height: 4rem;
+  font-size: 1.2rem;
+  color: #939494;
+}
+.footer .f_m {
+  display: flex;
+  margin-top: 1.5rem;
+  height: 4.5rem;
+  color: #939494;
+  font-size: 1.1rem;
+}
+.footer .f_m .three {
+  display: flex;
+}
+.footer .f_m .three img {
+  width: 2rem;
+  height: 2.3rem;
+  margin-right: 1.6rem;
+}
+.footer .f_m .three div {
+  display: flex;
+  flex-direction: column;
+}
+.footer .f_m .three:nth-of-type(1) {
+  margin-right: 7rem;
+}
+.footer .f_f {
+  color: #939494;
+  text-align: center;
+  font-size: 1.4rem;
+}
