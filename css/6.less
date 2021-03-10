@@ -148,6 +148,7 @@ body,html{
         display: flex;
         justify-content: space-between;
         padding: 1rem;
+        box-sizing: border-box;
         border-bottom: .1rem solid #cccccc;
         span{
             color: #FF8A00;
@@ -164,6 +165,7 @@ body,html{
     .fangpin_text{
         font-size: 1.2rem;
         padding: .5rem;
+        box-sizing: border-box;
         .span1{
             color:#FF8A00 ;
         
@@ -234,4 +236,49 @@ body,html{
     color: #939494;
     text-align: center;
     font-size: 1.4rem;
+}
+.zs{
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    .zs1{
+        width: 60%;
+        display: flex;
+        // justify-content: space-around;
+        align-items: center;
+        img{
+            margin-left: 1.5rem;
+            width: 4rem;
+            height: 4rem;
+        }
+        div{
+            margin-left: 1.5rem;
+            font-size: 1.4rem;
+        }
+    }
+    .zs2{
+        display: flex;
+        width: 40%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .zs2 li{
+        float: left;
+        // width: 22%;
+        img{
+          display: block;
+            width: 3rem;
+            height: 3rem;
+        }
+        .zs_span1{
+            color:#5dcb96 ;
+            font-size: 1.4rem;
+            text-align: center;
+        }
+       .zs_span2{
+            color:#5baede ;
+            font-size: 1.4rem;
+            text-align: center;
+        }
+    }
 }
