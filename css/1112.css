@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  font-size: 10px;
+  width: 100%;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4.2rem;
+  width: 100%;
+  padding: 0rem 3.4rem;
+  box-sizing: border-box;
+  background-color: #FF8A00;
+}
+.header img:nth-of-type(1) {
+  width: 9.9rem;
+  height: 3rem;
+}
+.header div img:nth-of-type(1) {
+  width: 2.1rem;
+  height: 2.9rem;
+  margin-right: 2.1rem;
+}
+.header div img:nth-of-type(2) {
+  width: 2.3rem;
+  height: 2.9rem;
+}
+.nav {
+  height: 3.6rem;
+  line-height: 3.6rem;
+  padding-left: 2rem;
+  box-sizing: border-box;
+  border-bottom: 0.1rem solid #ccc;
+  font-size: 1.2rem;
+}
+.nav span:nth-of-type(1) {
+  font-weight: 700;
+}
+.nav span:nth-of-type(3) {
+  font-weight: 700;
+}
+.atv {
+  border-bottom: 0.4rem solid #FF8A00;
+}
+.switch {
+  display: flex;
+  height: 4.3rem;
+  border-bottom: 0.4rem solid #ccc;
+}
+.switch span {
+  height: 4.3rem;
+  display: inline-block;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 4.3rem;
+}
+.switch .one {
+  width: 50%;
+}
+.switch .two {
+  width: 50%;
+}
+.input_box {
+  position: relative;
+}
+.input_box input {
+  width: 100%;
+  height: 4.3rem;
+  padding-left: 2rem;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 0.1rem solid #ccc;
+}
+.input_box ::-webkit-input-placeholder {
+  font-size: 1.3rem;
+  color: #666;
+}
+.input_box .yan {
+  display: none;
+  position: absolute;
+  top: 0.5rem;
+  right: 1.6rem;
+  width: 8rem;
+  height: 3.2rem;
+  border: 0.1rem solid #ccc;
+  text-align: center;
+  line-height: 3.2rem;
+}
+.input_box button {
+  height: 4.8rem;
+  width: 30rem;
+  margin-top: 1.4rem;
+  background-color: #FF8A00;
+  border: none;
+  color: #fff;
+  font-size: 1.8rem;
+  margin-left: 1rem;
+}
+.input_box .anniu {
+  padding: 1.6rem 1rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.input_box .anniu span:nth-of-type(1) {
+  font-size: 1.2rem;
+  color: #FF8A00;
+}
+.input_box .anniu span:nth-of-type(2) {
+  font-size: 1.2rem;
+  color: #666;
+}
